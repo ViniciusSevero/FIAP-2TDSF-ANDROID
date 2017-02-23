@@ -3,4 +3,8 @@
     <color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#00796b</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="coloActivityBackgroundTop">#E0F2F1</color>
+    <color name="coloActivityBackgroundBot">#B2DFDB</color>
+    <color name="colorBlank">#ffffff</color>
+    <color name="colorTealBody">#80CBC4</color>
 </resources>
