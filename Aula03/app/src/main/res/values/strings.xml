@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aula03</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="acessar">Acessar</string>
+    <string name="activity2text">Activity 2</string>
+    <string name="voltar">Voltar</string>
+</resources>
