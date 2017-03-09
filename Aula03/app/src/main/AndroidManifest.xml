@@ -14,7 +14,7 @@
         <activity android:name=".NotasCardActivity">
             <category android:name="android.intent.category.DEFAULT" />
         </activity>
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen" android:theme="@style/AppCompat.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

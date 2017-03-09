@@ -19,6 +19,7 @@
         android:textSize="30sp"/>
     
     <Button
+        style="@style/AppTheme.ButtonPrimaryDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnVoltar"
