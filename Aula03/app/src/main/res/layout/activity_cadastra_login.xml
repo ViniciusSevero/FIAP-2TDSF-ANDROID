@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_cadastra_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.example.vinicius.aula03.CadastraLoginActivity">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNome"
+            android:hint="@string/nome"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:maxLines="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSobrenome"
+            android:hint="@string/sobrenome"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:maxLines="1"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rgSexo"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbFeminino"
+                android:text="@string/feminino"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbMasculino"
+                android:text="@string/masculino"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtDtNascimento"
+            android:hint="@string/data_de_nascimento"
+            android:layout_marginTop="10dp"
+            android:inputType="date"
+            android:maxLines="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEmail"
+            android:hint="@string/email"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSenha"
+            android:hint="@string/senha"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:maxLines="1"/>
+
+        <Button
+            style="@style/AppTheme.ButtonPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGravarDados"
+            android:text="@string/gravar_dados"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp">
+
+            <Button
+                style="@style/AppTheme.ButtonPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExcluirDados"
+                android:text="@string/excluir_dados"
+                android:layout_weight="1"/>
+
+            <Button
+                style="@style/AppTheme.ButtonPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCarregarDados"
+                android:text="@string/caregar_dados"
+                android:layout_weight="1"/>
+
+            <Button
+                style="@style/AppTheme.ButtonPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnVerificarDados"
+                android:text="@string/verificar_dados"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp">
+
+            <Button
+                style="@style/AppTheme.ButtonPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGravarArquivo"
+                android:text="@string/gravar_arquivo"
+                android:layout_weight="1"/>
+
+            <Button
+                style="@style/AppTheme.ButtonPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLerArquivo"
+                android:text="@string/ler_arquivo"
+                android:layout_weight="1"/>
+
+            <Button
+                style="@style/AppTheme.ButtonPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExcluirArquivo"
+                android:text="@string/excluir_arquivo"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

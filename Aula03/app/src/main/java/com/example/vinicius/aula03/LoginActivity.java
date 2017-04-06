@@ -17,4 +17,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent toNotasCard = new Intent(this, NotasCardActivity.class);
         startActivity(toNotasCard);
     }
+
+    public void cadastrar(View v){
+        Intent toCadastroCard = new Intent(this, CadastraLoginActivity.class);
+        startActivity(toCadastroCard);
+    }
 }
