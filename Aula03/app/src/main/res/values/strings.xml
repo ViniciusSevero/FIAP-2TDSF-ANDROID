@@ -22,4 +22,10 @@
     <string name="ler_arquivo">Ler Aquivo</string>
     <string name="primeiro_acesso">Primeiro Acesso</string>
     <string name="dados_nook">Preencha todos os dados corretamente</string>
+    <string name="dados_ok">Dados gravados com sucesso</string>
+    <string name="exclusao_ok">Chaves excluídas com sucess</string>
+    <string name="dados_login_ok">Dados de login existentes</string>
+    <string name="dados_login_no_ok">Dados de login inexistentes</string>
+    <string name="arquivo_ok">Arquivo gravado</string>
+    <string name="arquivo_excluido">Aquivo excluído com sucesso!</string>
 </resources>

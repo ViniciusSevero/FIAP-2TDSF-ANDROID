@@ -28,6 +28,14 @@ public class ArquivoDB {
         }
         e.commit();
     }
+    public void excluirChaves(Context context, String prefName, HashMap<String,String> map) {
+        pref = context.getSharedPreferences(prefName,Context.MODE_PRIVATE);
+        SharedPreferences.Editor e = pref.edit();
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            e.remove(entry.getKey());
+        }
+        e.commit();
+    }
     public String retornaValor(Context context, String prefName,String key){
         pref = context.getSharedPreferences(prefName,Context.MODE_PRIVATE);
         return pref.getString(key,null); // se não achar retona null

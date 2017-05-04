@@ -89,7 +89,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnGravarDados"
             android:text="@string/gravar_dados"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:onClick="gravarChaves"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -103,7 +104,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnExcluirDados"
                 android:text="@string/excluir_dados"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:onClick="exluirCaves"/>
 
             <Button
                 style="@style/AppTheme.ButtonPrimaryDark"
@@ -111,7 +113,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnCarregarDados"
                 android:text="@string/caregar_dados"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:onClick="carregarChaves"/>
 
             <Button
                 style="@style/AppTheme.ButtonPrimaryDark"
@@ -119,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnVerificarDados"
                 android:text="@string/verificar_dados"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
 
         </LinearLayout>
 
@@ -135,7 +138,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnGravarArquivo"
                 android:text="@string/gravar_arquivo"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:onClick="gravarArquivo"/>
 
             <Button
                 style="@style/AppTheme.ButtonPrimaryDark"
@@ -143,7 +147,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnLerArquivo"
                 android:text="@string/ler_arquivo"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:onClick="lerArquivo"/>
 
             <Button
                 style="@style/AppTheme.ButtonPrimaryDark"
@@ -151,7 +156,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/btnExcluirArquivo"
                 android:text="@string/excluir_arquivo"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:onClick="excluirArquivo"/>
 
         </LinearLayout>
 
