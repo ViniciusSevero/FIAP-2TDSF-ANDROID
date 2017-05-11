@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExercicioRestaurante</string>
+    <string name="bebida">Bebida:</string>
+    <string name="peso_em_gramas">Peso em gramas:</string>
+    <string name="refrigerante">Refrigerante</string>
+    <string name="suco">Suco</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="forma_de_pagamento">Forma de Pagamento</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="valor_total_a_pagar">Valor Total a Pagar</string>
+    <string name="pagamento">Pagamento</string>
+    <string name="troco">Troco</string>
+    <string name="limpar">Limpar</string>
+    <string name="calcular">Calcular</string>
+    <string name="vlTroco">R$</string>
+    <string name="vlFormatted">R$ %1$.2f</string>
+</resources>
