@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Taxi</string>
+    <string name="cidade">Cidade</string>
+    <string name="bairro">Bairo</string>
+    <string name="endereco">Endereço</string>
+    <string name="complemento">Complemento</string>
+    <string name="residencial">Residencial</string>
+    <string name="comercial">Comercial</string>
+</resources>
