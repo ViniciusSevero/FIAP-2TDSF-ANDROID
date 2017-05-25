@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SWAPI</string>
+    <string name="nome">Nome</string>
+    <string name="heigth">Heigth</string>
+    <string name="masss">Masss</string>
+    <string name="hair_color">Hair Color</string>
+    <string name="skin_color">Skin Color</string>
+    <string name="eye_color">Eye Color</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="gender">Gender</string>
+    <string name="homeworld">Homeworld</string>
+</resources>
